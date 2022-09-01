@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+.hero{
+    /* sizing */
+    width: 100vw;
+    height: 100vh;
+
+    /* flexbox settings */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* text style */
+    text-align: center;
+
+    /* Bcakground positioning */
+    background-image: url(images/sean_sub_img.jpg);
+    background-size: cover;
+    background-position: 100%;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+}
+
+.hero h1{
+    /* text style */
+    font-size: 3em;
+    color: aqua;
+
+    /* Margins */
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    
+}
+
+.hero .btn{
+    /* Positioning and sizing */
+    display: block;
+    width: 200px;
+
+    /* padding and margins */
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+
+    /* Text styles */
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+
+    /* border style */
+    border: 3px solid black;
+    border-radius: 20px;
+}
+
